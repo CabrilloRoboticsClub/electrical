@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/isaac/OneDrive/Cabrillo Robotics Club/MATE 2024/Electrical/KICAD_EDA_Componet_Libarry/Footprints/footprints.pretty")(options "")(descr ""))
+)
