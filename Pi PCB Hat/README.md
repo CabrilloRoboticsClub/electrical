@@ -1,3 +1,3 @@
 # Pi PCB Hat
 
-[Link to wiki documentaion here]
+https://github.com/CabrilloRoboticsClub/electrical/wiki/Pi-Hat-PCB
