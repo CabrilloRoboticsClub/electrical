@@ -1,0 +1,38 @@
+This .txt serves as general purpose information, as well as a checklist. Therefore every major connection/interaction must be listed here. by Isaac Eda
+
+RPI Headers
+- This is the interface for the Raspberry Pi 4(RPi 4)
+- Supply Power: The Pi itself is powered by 5V through its USB port. No need for power input through the Pi hat PCB board.
+- I2C: The two I2C ports, SDA and SCL are extended through the PCB as BUS lines. Multiple devices connect to this BUS.
+- UART: The Pico W is connected to the Pi 4 via UART
+- Power Supplied(to other devices): Supplies 3.3V logic power to the BNO05 and BME280. Also supplies 5V logic power to the PCA9685 PWM chip.
+- Signal: Handles multiple inputs/outputs via GPIO to multiple devices, including; GPIO output for Power Switching Mosfets, output for BNO05 reset, input for BNO05 interrupt pin, input for BME280 Data, output for Pico W reset transistor switch, output for PCA9685 OE(output enable) pin.
+
+Power Switching
+- This is for switching on/off the relatively large power from the Power Board PCB, whether it's 12V or 5V. Multiples of this circuit may be present on the Pi PCB. Multiple may even branch out from the same power BUS line.
+- Supply Power: Either 12V or 5V, supplied by the Power board PCB. 
+- Signal: takes GPIO from RPi 4, to turn mosfet on/off
+- Power Supplied: (Multiple)Solenoid valves for switching pneumatics, miscellaneous 5V tooling.
+
+BNO05
+- Inertial Measurement Unit(IMU)
+- Supply Power: Takes 3.3V logic power
+- I2C: Connected via I2C SDA and SCL
+- Signal: GPIO input for reset, GPIO output for configurable Hardware interrupt. Also a solderable jumper pad connected to supply power to change I2C address is included on the Pi hat PCB.
+
+
+BME280
+- Humidity Sensor
+- Supply Power: Takes 3.3V logic power
+- I2C: Connected via I2C SDA and SCL
+- Signal: GPIO output for data
+
+PICO W Headers
+- Supply Power: The Pico W is powered by 5V through its USB port. No need for input power through the Pi hat PCB board. 
+- I2C: Connected via I2C SDA and SCL
+- UART: Connected to RPi 4 via UART RX and TX
+- Power Supplied(to other devices): 
+
+
+PCA9685 PWM
+-

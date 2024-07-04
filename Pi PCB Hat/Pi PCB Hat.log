@@ -1,0 +1,7 @@
+Questionable use of curly braces in "(pin (num "23") (name "~{oe}") (type "input"))"
+    Error: undefined symbol in: "[oe]"
+Questionable use of curly braces in "(node (ref "u1") (pin "23") (pinfunction "~{oe}") (pintype "input")))"
+    Error: undefined symbol in: "[oe]"
+Circuit: (export (version "E")
+
+Fatal Error: Unknown SPICE device type "(" in "(design"
