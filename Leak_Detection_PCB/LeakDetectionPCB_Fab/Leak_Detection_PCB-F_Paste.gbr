@@ -1,0 +1,21 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.10*%
+%TF.CreationDate,2024-02-03T21:39:14-08:00*%
+%TF.ProjectId,Leak_Detection_PCB,4c65616b-5f44-4657-9465-6374696f6e5f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.10) date 2024-02-03 21:39:14*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,2.510000X1.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X172216000Y-115189000D03*
+X168906000Y-112649000D03*
+%TD*%
+M02*
