@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Isac\Nextcloud\Electrical\E_CAD\Lumenier_Carrier_Board\Lumenier_Carrier_Board.kicad_sch</source>
+    <date>9/13/2023 9:21:46 AM</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Lumenier ESC Carrier Board</title>
+        <company>Cabrillo Robotics</company>
+        <rev>1</rev>
+        <date>8/18/2023</date>
+        <source>Lumenier_Carrier_Board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lumenier_Carrier_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>329620c4-fa87-494c-99b7-c7135cf8f067</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lumenier_Carrier_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc768f05-d139-45b9-9993-e8700ce07aa3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_AMASS:AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lumenier_Carrier_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>923cf9df-ebe2-4a9d-a7c8-510bebb6e551</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_AMASS:AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lumenier_Carrier_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2450ec47-c109-4cf8-9570-040ca954c400</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>Connector_AMASS:AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lumenier_Carrier_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e6d6787-ee03-46b2-b1cf-35ae9a1d1a57</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03</value>
+      <footprint>Connector_AMASS:AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lumenier_Carrier_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>233835fb-68a6-4b17-91b7-f1ad8ed29003</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02</value>
+      <footprint>Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lumenier_Carrier_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8f35609-da62-4d83-be10-ee2dd363d690</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02</value>
+      <footprint>Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lumenier_Carrier_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2718fc72-093b-449b-adcd-72f94b3becb0</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Lumenier_Mini_Razor_Pro_ESC</value>
+      <footprint>Footprints:Lumenier_Mini_Razor_Pro_ESC</footprint>
+      <libsource lib="Lumenier_Mini_Razor_Pro_ESC" part="Lumenier_Mini_Razor_Pro_ESC" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lumenier_Carrier_Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e500e65a-503b-46d0-8e24-74d33cb9475e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Lumenier_Mini_Razor_Pro_ESC" part="Lumenier_Mini_Razor_Pro_ESC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Lumenier_Mini_Razor_Pro_ESC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A_1" type="input"/>
+        <pin num="2" name="B_1" type="input"/>
+        <pin num="3" name="C_1" type="input"/>
+        <pin num="4" name="A_2" type="input"/>
+        <pin num="5" name="B_2" type="input"/>
+        <pin num="6" name="C_2" type="input"/>
+        <pin num="7" name="A_3" type="input"/>
+        <pin num="8" name="B_3" type="input"/>
+        <pin num="9" name="C_3" type="input"/>
+        <pin num="10" name="A_4" type="input"/>
+        <pin num="11" name="B_4" type="input"/>
+        <pin num="12" name="C_4" type="input"/>
+        <pin num="13" name="+12V" type="input"/>
+        <pin num="14" name="-12V" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Lumenier_Mini_Razor_Pro_ESC">
+      <uri/>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="+12V" pintype="input"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="-12V" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="C_1" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="B_1" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A_1" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="C_2" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="B_2" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A_2" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="A_3" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="B_3" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="C_3" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="A_4" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="B_4" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="C_4" pintype="input"/>
+    </net>
+  </nets>
+</export>
