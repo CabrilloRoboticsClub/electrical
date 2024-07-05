@@ -9,10 +9,10 @@ This year, we decided to develop a stack of custom boards for the first time. We
 
 
 The Seahawk II electrical stack focuses on high integration. We reduced the number of boards to three, which all connect seamlessly. This minimized space requirements. While the R&D expenses for developing these boards were high, the completed stack is incredibly reliable and significantly reduces costs compared to off-the-shelf options.
+## For exstive documetaion go to the wiki
+https://github.com/CabrilloRoboticsClub/electrical/wiki
 
-Members of 2024 electrical team:
+### Members of 2024 electrical team:
 - Isaac Wax
 - Isaac Eda
 
-For exstive documetaion go to the wiki
-https://github.com/CabrilloRoboticsClub/electrical/wiki
