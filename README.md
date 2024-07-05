@@ -13,3 +13,6 @@ The Seahawk II electrical stack focuses on high integration. We reduced the numb
 Members of 2024 electrical team:
 - Isaac Wax
 - Isaac Eda
+
+For exstive documetaion go to the wiki
+https://github.com/CabrilloRoboticsClub/electrical/wiki
