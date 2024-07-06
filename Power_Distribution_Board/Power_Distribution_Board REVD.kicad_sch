@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Power Distrubtion Board")
+    (rev "V1.0")
+    (company "Cabrillo Robotics, Seahawk II")
+    (comment 1 "Clean up for release")
+  )
+
   (lib_symbols
     (symbol "BMR4802112_032-typ_withPins:bmr480-45-to-60vin-12vout-1300w" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "U1" (at -16.51 12.7 0)
@@ -1453,10 +1460,6 @@
     (uuid ff07842e-a187-4d72-ad77-f7ca8604dc67)
   )
 
-  (text "Add ESR Cacs Here!" (at 196.85 33.02 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 30a9a23b-cb27-4eb3-b902-af86f67563a3)
-  )
   (text "This can be used to increase or decrease the voatage\nNo pullup resitors will give the defult 5V\nSee how to spec resitors on p.19"
     (at 147.32 156.21 0)
     (effects (font (size 0.5 0.5)) (justify left bottom))
@@ -1478,6 +1481,10 @@
     (at 41.91 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d921da68-e00f-47cb-a57b-a634fcef19fb)
+  )
+  (text "PMBus" (at 233.68 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f6bbc90a-9dce-4921-9a2c-3aab68a10304)
   )
 
   (global_label "CTRL" (shape input) (at 139.7 52.07 0) (fields_autoplaced)
@@ -2092,7 +2099,7 @@
     (property "Reference" "R3" (at 113.03 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (at 113.03 102.87 0)
+    (property "Value" "10Ohm" (at 113.03 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 108.712 101.6 90)
