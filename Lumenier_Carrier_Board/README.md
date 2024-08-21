@@ -1,3 +1,2 @@
 # Lumenier ESC Carrier Board
-
-[Add link to wiki page here]
+https://github.com/CabrilloRoboticsClub/electrical/wiki/ESC-Carrier-Board

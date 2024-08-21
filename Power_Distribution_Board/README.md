@@ -1,3 +1,2 @@
 # Power Distrubtion Board
-
-[Add link to wiki docs here]
+https://github.com/CabrilloRoboticsClub/electrical/wiki/Power-Distribution-Boad
