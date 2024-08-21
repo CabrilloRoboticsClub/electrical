@@ -1,0 +1,133 @@
+(footprint "Lumenier_Mini_Razor_Pro_ESC" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 59ec3997-d6b7-4b4c-bf96-f9d4352c6f62)
+  )
+  (fp_text value "Lumenier_Mini_Razor_Pro_ESC" (at 0 -25 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b50e06a5-418c-4a54-a057-f8f41c2a6a97)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d63c0815-9a9c-484c-a2af-85631241cc4a)
+  )
+  (fp_line (start -16.353553 11.229165) (end -16.353553 20.646447) (layer "Edge.Cuts") (width 0.25) (tstamp 02fd1497-a092-48a2-a360-7c2c53492b48))
+  (fp_line (start -13.515351 8.402977) (end -16.191755 10.8609) (layer "Edge.Cuts") (width 0.25) (tstamp 18ca71bf-cba7-4791-afb5-6de78622a9c5))
+  (fp_line (start -13.353553 -7.741818) (end -13.353553 8.034712) (layer "Edge.Cuts") (width 0.25) (tstamp 27a34823-4f22-43f4-bb41-d564627ecb49))
+  (fp_line (start 16.146447 -20.853553) (end -15.853553 -20.853553) (layer "Edge.Cuts") (width 0.25) (tstamp 363caf86-b9fc-484c-92f4-9d1454ba42d9))
+  (fp_line (start 10.531447 6.681447) (end 10.531447 -6.388553) (layer "Edge.Cuts") (width 0.25) (tstamp 3d60ca3f-071b-48f3-8523-64fde50ba58f))
+  (fp_line (start 16.646447 -10.257412) (end 16.646447 -20.353553) (layer "Edge.Cuts") (width 0.25) (tstamp 4dd1363b-aaf5-4a96-8a7c-f24a4aebd2db))
+  (fp_line (start 13.931447 7.181447) (end 11.031447 7.181447) (layer "Edge.Cuts") (width 0.25) (tstamp 4f85f681-673b-465d-a9f2-fd060bb4205c))
+  (fp_line (start 11.031447 -6.888553) (end 13.931447 -6.888553) (layer "Edge.Cuts") (width 0.25) (tstamp 5423a9d3-1a47-44a0-b9b9-f5bbcd6d8001))
+  (fp_line (start 16.646447 20.646447) (end 16.646447 10.550306) (layer "Edge.Cuts") (width 0.25) (tstamp 6967b95c-802f-4457-97a7-f269c1d333e7))
+  (fp_line (start -16.191755 -10.568006) (end -13.515351 -8.110083) (layer "Edge.Cuts") (width 0.25) (tstamp 72858430-4774-4006-a33d-a74fd8fcc60a))
+  (fp_line (start 14.593245 -8.152143) (end 16.484649 -9.889147) (layer "Edge.Cuts") (width 0.25) (tstamp 9b12733a-4a38-4195-9e93-a6267d5700f7))
+  (fp_line (start -15.853553 21.146447) (end 16.146447 21.146447) (layer "Edge.Cuts") (width 0.25) (tstamp c437d99b-19a0-4c89-87c5-bdba6aef9432))
+  (fp_line (start -16.353553 -20.353553) (end -16.353553 -10.936271) (layer "Edge.Cuts") (width 0.25) (tstamp c7256406-2e6c-4263-89f7-e086ca95a99d))
+  (fp_line (start 14.431447 -7.388553) (end 14.431447 -7.783878) (layer "Edge.Cuts") (width 0.25) (tstamp c9d50df3-6e71-4f73-b5fa-37be5ce65fff))
+  (fp_line (start 16.484649 10.182041) (end 14.593245 8.445037) (layer "Edge.Cuts") (width 0.25) (tstamp dcfcf015-3d67-48ab-a30b-373098aeebf6))
+  (fp_line (start 14.431447 8.076772) (end 14.431447 7.681447) (layer "Edge.Cuts") (width 0.25) (tstamp f342d2c4-14f8-46da-911f-5dcdee55f7c0))
+  (fp_arc (start -15.853553 21.146447) (mid -16.207106 21) (end -16.353553 20.646447) (layer "Edge.Cuts") (width 0.25) (tstamp 179cbc7d-aa1a-4030-a8ec-796900af95f8))
+  (fp_arc (start 14.431447 -7.783878) (mid 14.473689 -7.984993) (end 14.593245 -8.152143) (layer "Edge.Cuts") (width 0.25) (tstamp 1e2bbec3-06f9-4bad-b989-53a7b9705b45))
+  (fp_arc (start 16.484649 10.182041) (mid 16.604227 10.349183) (end 16.646447 10.550306) (layer "Edge.Cuts") (width 0.25) (tstamp 27406981-a069-4cb7-be90-6f54a71f83c9))
+  (fp_arc (start 11.031447 7.181447) (mid 10.677894 7.035) (end 10.531447 6.681447) (layer "Edge.Cuts") (width 0.25) (tstamp 337c53b0-a8a2-483a-a1c8-ff84d96d043a))
+  (fp_arc (start 16.646447 -10.257412) (mid 16.6042 -10.056301) (end 16.484649 -9.889147) (layer "Edge.Cuts") (width 0.25) (tstamp 423ae651-efd9-49cf-9cc8-f3274dfaeb3f))
+  (fp_arc (start -16.353553 -20.353553) (mid -16.207106 -20.707106) (end -15.853553 -20.853553) (layer "Edge.Cuts") (width 0.25) (tstamp 63d0a834-bc9e-4e1e-a3a8-dcd0f83a6d84))
+  (fp_arc (start -16.191755 -10.568006) (mid -16.31132 -10.735151) (end -16.353553 -10.936271) (layer "Edge.Cuts") (width 0.25) (tstamp 82ee2e22-8b59-43ed-80b0-db6ccc6008f5))
+  (fp_arc (start -13.515351 -8.110083) (mid -13.395786 -7.942939) (end -13.353553 -7.741818) (layer "Edge.Cuts") (width 0.25) (tstamp 84039cef-5523-4678-b4d9-fbbd8d843282))
+  (fp_arc (start 13.931447 7.181447) (mid 14.285 7.327894) (end 14.431447 7.681447) (layer "Edge.Cuts") (width 0.25) (tstamp 88ea669f-7a9c-48da-81d3-186a20dd3215))
+  (fp_arc (start 16.146447 -20.853553) (mid 16.5 -20.707106) (end 16.646447 -20.353553) (layer "Edge.Cuts") (width 0.25) (tstamp a2ecd62e-da35-4b7f-b25d-0bc0edaf0e98))
+  (fp_arc (start 10.531447 -6.388553) (mid 10.677894 -6.742106) (end 11.031447 -6.888553) (layer "Edge.Cuts") (width 0.25) (tstamp b80e339d-d8b0-46a8-b0c8-8cd66e5be537))
+  (fp_arc (start 14.431447 -7.388553) (mid 14.285 -7.035) (end 13.931447 -6.888553) (layer "Edge.Cuts") (width 0.25) (tstamp be2b4b87-c516-4328-b008-7e746fcece7f))
+  (fp_arc (start -16.353553 11.229165) (mid -16.31132 11.028045) (end -16.191755 10.8609) (layer "Edge.Cuts") (width 0.25) (tstamp bf897e05-360f-4ca2-8e2c-8227563f31d7))
+  (fp_arc (start -13.353553 8.034712) (mid -13.395786 8.235833) (end -13.515351 8.402977) (layer "Edge.Cuts") (width 0.25) (tstamp d7cf16d5-fdc8-4539-ab69-ab4eb71bac5b))
+  (fp_arc (start 16.646447 20.646447) (mid 16.5 21) (end 16.146447 21.146447) (layer "Edge.Cuts") (width 0.25) (tstamp e6909d9c-8c60-421b-9c92-e4e98ff1182f))
+  (fp_arc (start 14.593245 8.445037) (mid 14.473672 8.277894) (end 14.431447 8.076772) (layer "Edge.Cuts") (width 0.25) (tstamp f10077df-363e-4814-ac0f-554c1af08d4d))
+  (pad "1" thru_hole rect (at -13.35 -20.75) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp fabaddc4-e809-43ac-94ad-67a5682b37c7))
+  (pad "2" thru_hole rect (at -8 -20.75) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp 5cc65178-c6b8-489e-a53c-3cf650949015))
+  (pad "3" thru_hole rect (at -2.75 -20.75) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp e542e3ac-fedb-4549-a112-46661253bf13))
+  (pad "4" thru_hole rect (at 2.7 -20.75) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp 5c7a2f45-32ec-4fb5-8152-664c4392ac24))
+  (pad "5" thru_hole rect (at 8.05 -20.75) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp 527aa160-44de-4dbd-a0d2-8e399cf6729a))
+  (pad "6" thru_hole rect (at 13.3 -20.75) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp efa3550c-387c-49b8-b52b-b2519c4e9058))
+  (pad "7" thru_hole rect (at -13.35 21) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp ccddcda2-ce3e-4b71-86a6-9035066fb99e))
+  (pad "8" thru_hole rect (at -8 21) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp 375d542d-9514-4a2b-b5b4-bd11eb159e1a))
+  (pad "9" thru_hole rect (at -2.75 21) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp f782f1e7-8124-40c2-a5b4-8f55d49a7b00))
+  (pad "10" thru_hole rect (at 2.7 21) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp 5c1a7409-65e0-461f-9f5f-165b17844ad0))
+  (pad "11" thru_hole rect (at 8.05 21) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp 9600c31c-7f07-4200-8150-ed16db3665bb))
+  (pad "12" thru_hole rect (at 13.3 21) (size 4 4) (drill 2.5) (layers *.Cu *.Mask) (tstamp 70b6ff7c-f5b7-4038-b1f6-9ab87ce35657))
+  (pad "13" smd roundrect (at 14.5 -3.75) (size 5 5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 99062475-7418-4122-bf9d-9a1a92cd05d5))
+  (pad "14" smd roundrect (at 14.5 4) (size 5 5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp dbc0c6da-32ad-46d6-a838-eb872a964e7c))
+  (group "" (id 09651c4b-d5d0-4955-b570-8074e5a0cab6)
+    (members
+      02fd1497-a092-48a2-a360-7c2c53492b48
+      179cbc7d-aa1a-4030-a8ec-796900af95f8
+      18ca71bf-cba7-4791-afb5-6de78622a9c5
+      1e2bbec3-06f9-4bad-b989-53a7b9705b45
+      27406981-a069-4cb7-be90-6f54a71f83c9
+      27a34823-4f22-43f4-bb41-d564627ecb49
+      337c53b0-a8a2-483a-a1c8-ff84d96d043a
+      363caf86-b9fc-484c-92f4-9d1454ba42d9
+      3d60ca3f-071b-48f3-8523-64fde50ba58f
+      423ae651-efd9-49cf-9cc8-f3274dfaeb3f
+      4dd1363b-aaf5-4a96-8a7c-f24a4aebd2db
+      4f85f681-673b-465d-a9f2-fd060bb4205c
+      5423a9d3-1a47-44a0-b9b9-f5bbcd6d8001
+      63d0a834-bc9e-4e1e-a3a8-dcd0f83a6d84
+      6967b95c-802f-4457-97a7-f269c1d333e7
+      72858430-4774-4006-a33d-a74fd8fcc60a
+      82ee2e22-8b59-43ed-80b0-db6ccc6008f5
+      84039cef-5523-4678-b4d9-fbbd8d843282
+      88ea669f-7a9c-48da-81d3-186a20dd3215
+      9b12733a-4a38-4195-9e93-a6267d5700f7
+      a2ecd62e-da35-4b7f-b25d-0bc0edaf0e98
+      b80e339d-d8b0-46a8-b0c8-8cd66e5be537
+      be2b4b87-c516-4328-b008-7e746fcece7f
+      bf897e05-360f-4ca2-8e2c-8227563f31d7
+      c437d99b-19a0-4c89-87c5-bdba6aef9432
+      c7256406-2e6c-4263-89f7-e086ca95a99d
+      c9d50df3-6e71-4f73-b5fa-37be5ce65fff
+      d7cf16d5-fdc8-4539-ab69-ab4eb71bac5b
+      dcfcf015-3d67-48ab-a30b-373098aeebf6
+      e6909d9c-8c60-421b-9c92-e4e98ff1182f
+      f10077df-363e-4814-ac0f-554c1af08d4d
+      f342d2c4-14f8-46da-911f-5dcdee55f7c0
+    )
+  )
+  (group "" (id 91892dad-400a-4cf7-b047-17c9acef0e01)
+    (members
+      5c1a7409-65e0-461f-9f5f-165b17844ad0
+      70b6ff7c-f5b7-4038-b1f6-9ab87ce35657
+      9600c31c-7f07-4200-8150-ed16db3665bb
+      a132e0c4-f665-45c1-9b04-b419a11db525
+    )
+  )
+  (group "" (id 99bed7df-6b12-412c-b8b2-058b88595509)
+    (members
+      5cc65178-c6b8-489e-a53c-3cf650949015
+      e542e3ac-fedb-4549-a112-46661253bf13
+      fabaddc4-e809-43ac-94ad-67a5682b37c7
+    )
+  )
+  (group "" (id a132e0c4-f665-45c1-9b04-b419a11db525)
+    (members
+      375d542d-9514-4a2b-b5b4-bd11eb159e1a
+      ccddcda2-ce3e-4b71-86a6-9035066fb99e
+      f782f1e7-8124-40c2-a5b4-8f55d49a7b00
+    )
+  )
+  (group "" (id d3d05ac3-4c2b-4322-9e91-e3b4be6a5b5f)
+    (members
+      527aa160-44de-4dbd-a0d2-8e399cf6729a
+      5c7a2f45-32ec-4fb5-8152-664c4392ac24
+      99bed7df-6b12-412c-b8b2-058b88595509
+      efa3550c-387c-49b8-b52b-b2519c4e9058
+    )
+  )
+  (model "C:/Users/Isac/Nextcloud/Robotics Club 2024/Hardware/Electrical/KICAD_EDA_Componet_Libarry/3D_Models/Lumenier_ESC.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
